@@ -7,6 +7,8 @@ Each group of students can choose a topic for the project, with approval from th
 
 The project is completed using MATLAB. MATLAB code files are available upon requests to huynh@mines.edu.
 
+The code evolves over time through the following stages of our learning from experience.
+
 Stage 1: drawing the boundaries of road line objects manually by finding furthest (corner) points of each block that satisfies the Area and Centroid location region property requirements, and plotting straight lines connecting the 4 corner points. Using imopen() to get rid of small blobs of noise.
 –> drawing lines manually for blobs makes processing time very slow
 
